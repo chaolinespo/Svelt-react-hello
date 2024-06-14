@@ -1,18 +1,23 @@
 import React from "react";
 
-
-
 //create your first component
-export const Jumbotron  = () => {
-	return (
-        <div class="card w-100 mt-2 mb-3">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Button</a>
-        </div>
-      </div>
-	);
+export const Jumbotron = () => {
+  return (
+    <div className="Jumbotron bg-light">
+      <h1 className="display-4">A Warm Welcome!</h1>
+      <p className="lead">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+      <a className="btn btn-primary btn-lg" href="" role="button">
+        Call to action!
+      </a>
+    </div>
+  );
 };
-
-
+export default Jumbotron

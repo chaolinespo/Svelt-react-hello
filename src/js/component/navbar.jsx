@@ -3,13 +3,13 @@ import React from "react";
 //create your first component
 export const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top ">
-      <div class="container">
-        <a className="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-black text-white">
+      <div className="container">
+        <a className="navbar-brand text-white" href="#">
           Start Bootstrap
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -25,22 +25,22 @@ export const Navbar = () => {
         >
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active text-white" aria-current="page" href="#">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link text-white" href="#">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link text-white" href="#">
                 Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">
+              <a className="nav-link disabled text-white" aria-disabled="true">
                 Contact
               </a>
             </li>

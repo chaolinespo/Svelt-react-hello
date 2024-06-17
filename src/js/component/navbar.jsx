@@ -3,7 +3,7 @@ import React from "react";
 //create your first component
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-black text-white">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-white">
       <div className="container">
         <a className="navbar-brand text-white" href="#">
           Start Bootstrap
@@ -50,4 +50,3 @@ export const Navbar = () => {
     </nav>
   )
 }
-export default Navbar
